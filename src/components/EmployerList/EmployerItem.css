@@ -1,0 +1,44 @@
+.employer-item {
+  padding: 10px; 
+  margin-bottom: 10px;
+  border: 1px solid silver;
+  border-radius: 3px;
+  background: white;
+}
+.employer-item__content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.employer-item__number {
+  font-size: 1rem;
+  margin-top: 3px;
+}
+
+.employer-item__info-block {
+  display: flex;
+  gap: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.employer-item__action-block {
+  display: flex;
+  gap: 10px;
+  margin-left: auto;
+}
+
+.employer-item__checkbox {
+  width: 15px;
+  height: 15px;
+}
+
+.edit {
+  border: 1px solid red;
+}
+
+.unactive {
+  background-color:  rgb(240, 238, 238);
+}

@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 100px;
+  font-family: sans-serif;
+  background: rgb(242, 241, 241);
+}
+
+li {
+  list-style: none;
+}
+
+label {
+  display: block;
+}
+
+input {
+  padding: 10px;
+  margin: 5px 0;
+  width: 310px;
+  font-size: 16px;
+  border-radius: 3px;
+  border: 2px solid silver;
+  outline: none;
+}
+
+button {
+  border: 1px solid silver;
+  border-radius: 3px;
+  background: none;
+  font-weight: bold;
+  padding: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+  background: rgb(240, 238, 238);
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.employer-list-count {
+  margin-bottom: 20px;
+}
+.employer-list-count span {
+  font-weight: bold;
+}

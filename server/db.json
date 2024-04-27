@@ -1,0 +1,28 @@
+{
+  "employList": [
+    {
+      "id": "1",
+      "name": "Ivan",
+      "surname": "Ivanov",
+      "active": true
+    },
+    {
+      "id": "2",
+      "name": "Petro",
+      "surname": "Petrov",
+      "active": true
+    },
+    {
+      "id": "3",
+      "name": "Mikola",
+      "surname": "Mikolov",
+      "active": false
+    },
+    {
+      "id": "4",
+      "name": "Taras",
+      "surname": "Tarasov",
+      "active": true
+    }
+  ]
+}
